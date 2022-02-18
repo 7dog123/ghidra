@@ -37,4 +37,4 @@ jobs:
          wget -q https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_10.1.2_build/ghidra_10.1.2_PUBLIC_20220125.zip
          unzip -qq ghidra_10.1.2_PUBLIC_20220125.zip
          cd ghidra_10.1.2_PUBLIC
-         ./support/analyzeHeadless
+         ./ghidraRun
